@@ -5,7 +5,7 @@ import numpy
 import load
 
 batch_size = 100
-train_step = 10
+train_step = 30
 
 ck1 = tf.Variable(tf.ones([5, 5, 3, 6]))
 ck3 = tf.Variable(tf.ones([5, 5, 6, 16]))
